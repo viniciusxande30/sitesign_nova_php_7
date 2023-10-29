@@ -210,7 +210,7 @@ include(VIEW.'/components/common/slide.tpl.php');
                             </div>
                             <p>Quer saber como podemos otimizar seus processos e e maximizar seus resultados? Entre em contato conosco, temos a solução ideal para o seu negócio.</p>
                             <div class="slider-btn mt-15">                                          
-                                            <a href="#" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Entre em Contato Conosco</a>					
+                                            <a href="<?php echo URL?>contato" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Entre em Contato Conosco</a>					
                                         </div>
                         
                         </div>
@@ -477,11 +477,11 @@ include(VIEW.'/components/common/slide.tpl.php');
                               
                             </div>
                                 
-						<form action="mail.php" method="post" class="contact-form mt-30">
+						<form action="<?php echo URL ?>email" method="post" class="contact-form mt-30">
 							<div class="row">
                             <div class="col-lg-12">
                                 <div class="contact-field p-relative c-name mb-15">                                    
-                                    <input type="text" id="firstn" name="firstn" placeholder="Nome" required>
+                                    <input type="text" id="firstn" name="name" placeholder="Nome" required>
                                 </div>                               
                             </div>
 							
@@ -497,7 +497,7 @@ include(VIEW.'/components/common/slide.tpl.php');
                             </div>	
                             <div class="col-lg-12">                               
                                 <div class="contact-field p-relative c-option mb-15">                                   
-                                    <select name="services" id="sr">
+                                    <select name="service" id="sr">
                                          <option value="sports-massage">Selecione o Serviço</option>
                                       <option value="sports-massage">Auditoria</option>
                                       <option value="hot-stone-message">Tributário</option>
