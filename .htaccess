@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^([a-z_-]+)\/?$ index.php?segment1=$1 [NC,L]
+RewriteRule ^([a-z_-]+)\/([a-z,0-9_-]+)\/?$ index.php?segment1=$1&segment2=$2 [NC,L]
+RewriteRule ^([a-z_-]+)\/([a-z,0-9_-]+)\/([a-z,0-9_-]+)\/?$ index.php?segment1=$1&segment2=$2&segment3=$3 [NC,L]
+RewriteRule ^([a-z_-]+)\/([a-z,0-9_-]+)\/([a-z,0-9_-]+)\/([a-z,0-9_-]+)\/?$ index.php?segment1=$1&segment2=$2&segment3=$3&segment3=$4 [NC,L]
+RewriteRule ^([a-z_-]+)\/([a-z,0-9_-]+)\/([a-z,0-9_-]+)\/([a-z,0-9_-]+)\/([a-z,0-9_-]+)\/?$ index.php?segment1=$1&segment2=$2&segment3=$3&segment3=$4&segment4=$5 [NC,L]
+
+# CONFIGURAR UTILIZAÇÃO DO HTTPS
+RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://cometacargas.com.br/$1 [R,L]
