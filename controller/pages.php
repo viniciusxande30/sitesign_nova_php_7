@@ -35,3 +35,12 @@ function clientes() {
     view('clientes');
 }
 
+function obrigado() {
+    view('obrigado');
+}
+
+function termos() {
+    view('termos');
+}
+
+

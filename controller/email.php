@@ -20,10 +20,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($destinatario, $assunto, $corpo_email);
 
     // Redirecionar após o envio
-    header("Location: obrigado.html");
+    header("Location: obrigado");
 } else {
     // Se não for uma requisição POST, redirecionar para o formulário
-    header("Location: formulario.html");
+    header("Location: obrigado");
 }
 
 // if (isset($_GET['segment2']) AND $_GET['segment2'] == 'enviar') {

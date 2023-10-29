@@ -76,7 +76,7 @@
                         </div>
                         <div class="col-lg-6 text-right text-xl-right">                       
                             <ul>
-                                <li><a href="#">Termos de Privacidade</a></li>
+                                <li><a href="<?php URL ?>termos">Termos de Privacidade</a></li>
                                
                             </ul>                 
                         </div>
