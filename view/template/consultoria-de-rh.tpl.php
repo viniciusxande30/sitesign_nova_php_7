@@ -1,6 +1,8 @@
-@include('includes.top')
+<?php
+include(VIEW.'/components/common/top.tpl.php');
+?>
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url({{url('/')}}/assets/img/testimonial/test-bg.png)">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(<?php echo ASSET ?>img/testimonial/test-bg.png)">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -11,7 +13,7 @@
                               
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="{{url('/')}}">Página Inicial</a></li>
+                                        <li class="breadcrumb-item"><a href="<?php echo URL ?>">Página Inicial</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Consultoria de RH</li>
                                     </ol>
                                 </nav>
@@ -39,11 +41,11 @@
                                 <!-- Services Category -->
                                 <ul class="services-categories">
                                     <li><a href="#">Todos os Serviços</a></li>
-                                    <li><a href="{{url('/')}}/auditoria">Auditoria</a></li>
-                                    <li><a href="{{url('/')}}/tributario">Tributário</a></li>
-                                    <li><a href="{{url('/')}}/consultoria">Consultoria</a></li>                                    
-                                    <li class="active"><a href="{{url('/')}}/consultoria-de-rh">Consultoria de RH</a></li>
-                                    <li><a href="{{url('/')}}/bps">BPS</a></li>
+                                    <li><a href="<?php echo URL ?>auditoria">Auditoria</a></li>
+                                    <li><a href="<?php echo URL ?>tributario">Tributário</a></li>
+                                    <li><a href="<?php echo URL ?>consultoria">Consultoria</a></li>                                    
+                                    <li class="active"><a href="<?php echo URL ?>consultoria-de-rh">Consultoria de RH</a></li>
+                                    <li><a href="<?php echo URL ?>bps">BPS</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -134,4 +136,6 @@
                     </div>
                 </div>
             </section>
-@include('includes.footer')
+            <?php
+include(VIEW.'components/common/footer.tpl.php');
+?>

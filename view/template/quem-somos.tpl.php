@@ -1,7 +1,9 @@
-@include('includes.top')
+<?php
+include(VIEW.'/components/common/top.tpl.php');
+?>
             
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url({{url('/')}}/assets/img/testimonial/test-bg.png)">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(<?php echo ASSET ?>img/testimonial/test-bg.png)">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -12,7 +14,7 @@
                               
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="{{url('/')}}">Página Inicial</a></li>
+                                        <li class="breadcrumb-item"><a href="<?php echo URL ?>">Página Inicial</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Sobre Nós</li>
                                     </ol>
                                 </nav>
@@ -27,13 +29,13 @@
             <!-- breadcrumb-area-end -->
             <!-- about-area -->
             <section id="about" class="about-area2 about-p pt-120 pb-120 p-relative">
-                <div class="ab-ani"><img src="{{url('/')}}/assets/img/bg/ab-ani-01.png" alt="ab-ani-01.png"></div>
-                <div class="ab-ani1"><img src="{{url('/')}}/assets/img/bg/ab-ani-02.png" alt="ab-ani-01.png"></div>
+                <div class="ab-ani"><img src="<?php echo ASSET ?>img/bg/ab-ani-01.png" alt="ab-ani-01.png"></div>
+                <div class="ab-ani1"><img src="<?php echo ASSET ?>img/bg/ab-ani-02.png" alt="ab-ani-01.png"></div>
                 <div class="container">
                     <div class="row">
                          <div class="col-lg-6 col-md-12 col-sm-12 pr-30">
                             <div class="s-about-img p-relative  wow fadeInLeft   animated" data-animation="fadeInLeft" data-delay=".4s" style="visibility: visible; animation-name: fadeInLeft;">
-                                <img src="{{url('/')}}/assets/img/features/about_img.png" alt="img">    
+                                <img src="<?php echo ASSET ?>img/features/about_img.png" alt="img">    
                             </div>
                           
                         </div>
@@ -51,7 +53,7 @@
                                     <div class="row">
                                     <div class="col-md-4">
                                      <div class="exprince">
-                                               <img src="{{url('/')}}/assets/img/features/awward-icon.png" alt="img">
+                                               <img src="<?php echo ASSET ?>img/features/awward-icon.png" alt="img">
                                                 <h5>+ de 25 Anos de</h5>
                                                 <p>Experiência</p>
                                            </div>
@@ -82,7 +84,7 @@
           
 			
              <!-- team-area -->
-            <section id="team" class="team-area2 pt-120 pb-90" style="background:url('{{url('/')}}/assets/img/bg/team-bg.png')">            
+            <section id="team" class="team-area2 pt-120 pb-90" style="background:url('<?php echo ASSET ?>img/bg/team-bg.png')">            
                 <div class="container">  
                     <div class="row">   
                         <div class="col-lg-12 p-relative">
@@ -100,11 +102,11 @@
                             <div class="single-team text-center mb-30 ">
                                 <div class="team-thumb">
                                   <div class="brd">
-                                        <img src="{{url('/')}}/assets/img/team/team_img01.png" alt="img" height="350px">
+                                        <img src="{{<?php echo ASSET ?>img/team/team_img01.png" alt="img" height="350px">
                                     </div>
                                 </div>
                                 <div class="team-info">
-                                    <h4><a href="team-details.html">Luiz Roberto Cafarella</a></h4>
+                                    <h4><a href="<?php echo URL ?>">Luiz Roberto Cafarella</a></h4>
                                     <span>Executivo</span>
                                     <p>Executivo com mais de 28 anos de experiência profissional atendendo clientes nacionais e internacionais no mercado financeiro, segurador, indústria, comércio e serviços. Base de sua experiência foi consolidada...</p>
                                   
@@ -115,11 +117,11 @@
                             <div class="single-team text-center mb-30 ">
                                 <div class="team-thumb">
                                     <div class="brd">
-                                         <img src="{{url('/')}}/assets/img/team/team_img02.png" alt="img" height="350px">
+                                         <img src="<?php echo ASSET ?>img/team/team_img02.png" alt="img" height="350px">
                                     </div>
                                 </div>
                                 <div class="team-info">
-                                    <h4><a href="team-details.html">Reinaldo Molina</a></h4>
+                                    <h4><a href="<?php echo URL ?>">Reinaldo Molina</a></h4>
                                     <span>Executivo</span>
                                  <p>Executivo com 27 anos de experiência nas áreas de Auditoria e Consultoria de Bancos, Seguradoras, Fundos de Pensão e Operadoras de Saúde, dos quais 17 anos em duas das maiores empresas globais...</p>
                                 </div>
@@ -137,4 +139,6 @@
           
          
         </main>
-@include('includes.footer')
+        <?php
+include(VIEW.'components/common/footer.tpl.php');
+?>

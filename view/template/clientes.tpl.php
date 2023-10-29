@@ -1,3 +1,7 @@
-@include('includes.top')
+<?php
+include(VIEW.'/components/common/top.tpl.php');
+?>
 
-@include('includes.footer')
+<?php
+include(VIEW.'components/common/footer.tpl.php');
+?>

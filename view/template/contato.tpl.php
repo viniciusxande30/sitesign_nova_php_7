@@ -1,6 +1,8 @@
-@include('includes.top')
+<?php
+include(VIEW.'/components/common/top.tpl.php');
+?>
  <!-- breadcrumb-area -->
- <section class="breadcrumb-area d-flex align-items-center" style="background-image:url({{url('/')}}/assets/img/testimonial/test-bg.png)">
+ <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(<?php echo ASSET ?>img/testimonial/test-bg.png)">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
@@ -11,7 +13,7 @@
                               
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="{{url('/')}}">Página Inicial</a></li>
+                                        <li class="breadcrumb-item"><a href="<?php echo URL ?>">Página Inicial</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Fale Conosco</li>
                                     </ol>
                                 </nav>
@@ -79,8 +81,8 @@
 
 
             <section id="contact" class="contact-area contact-bg pt-120 pb-120 p-relative fix" style="background: #f6faff;">
-                <div class="ab-ani2"><img src="{{url('/')}}/assets/img/bg/p-shape02.png" alt="ab-ani-01.png"></div>
-                <div class="ab-ani3"><img src="{{url('/')}}/assets/img/bg/p-shape.png" alt="ab-ani-01.png"></div>
+                <div class="ab-ani2"><img src="<?php echo ASSET ?>img/bg/p-shape02.png" alt="ab-ani-01.png"></div>
+                <div class="ab-ani3"><img src="<?php echo ASSET ?>img/bg/p-shape.png" alt="ab-ani-01.png"></div>
                 
                 <div class="container">
              
@@ -137,4 +139,6 @@
                 </div>
                
             </section>
-@include('includes.footer')
+            <?php
+include(VIEW.'components/common/footer.tpl.php');
+?>
