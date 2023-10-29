@@ -36,7 +36,7 @@ include(VIEW.'/components/common/slide.tpl.php');
                                     <small>+</small>
                                     <span class="count">1000</span>
                                 </div>
-                                <p>Complete Projects</p>
+                                <p>Projetos Completos</p>
                             </div>
                         </div>
                     </div>
