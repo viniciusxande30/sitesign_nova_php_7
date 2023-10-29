@@ -3,7 +3,7 @@ require_once 'config.php';
 
 # "Sistema de rotas"...
 if (!isset($_GET['segment1'])) pages('index');
-
+echo $_GET['segment1'];
 if ($_GET['segment1'] == 'auditoria') pages('auditoria');
 if ($_GET['segment1'] == 'bps') pages('bps');
 if ($_GET['segment1'] == 'clientes') pages('clientes');

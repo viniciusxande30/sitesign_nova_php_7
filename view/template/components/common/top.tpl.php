@@ -95,15 +95,15 @@
                                             <li class="has-sub"> 
                                                 <a href="#">Serviços</a>
                                                 <ul>
-                                                    <li><a href="<?php echo URL ?>/auditoria">Auditoria</a></li>
-                                                    <li><a href="<?php echo URL ?>/tributario">Tributário</a></li>
-                                                    <li><a href="<?php echo URL ?>/consultoria">Consultoria</a></li>
-                                                    <li><a href="<?php echo URL ?>/consultoria-de-rh">Consultoria de RH</a></li>
-                                                    <li><a href="<?php echo URL ?>/bps">BPS</a></li>
+                                                    <li><a href="<?php echo URL ?>auditoria">Auditoria</a></li>
+                                                    <li><a href="<?php echo URL ?>tributario">Tributário</a></li>
+                                                    <li><a href="<?php echo URL ?>consultoria">Consultoria</a></li>
+                                                    <li><a href="<?php echo URL ?>consultoria-de-rh">Consultoria de RH</a></li>
+                                                    <li><a href="<?php echo URL ?>bps">BPS</a></li>
 
 												</ul>
                                             </li>
-                                            <li><a href="<?php echo URL ?>/contato">Contato</a></li>
+                                            <li><a href="<?php echo URL ?>contato">Contato</a></li>
 
                                                                                   
                                         </ul>
@@ -111,7 +111,7 @@
                                 </div>
                             </div>   
                             <div class="col-xl-2 col-lg-2 text-right d-none d-lg-block mt-15 mb-15">
-                                <a href="<?php echo URL ?>/contato" class="btn ss-btn">Fale Conosco</a>
+                                <a href="<?php echo URL ?>contato" class="btn ss-btn">Fale Conosco</a>
                             </div>
                           
                             
