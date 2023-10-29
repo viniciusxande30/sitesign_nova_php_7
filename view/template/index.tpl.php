@@ -67,7 +67,7 @@ include(VIEW.'/components/common/slide.tpl.php');
                                 
                                 <p>A SiGN AUDIT & ADVISORY tem como foco a prestação de serviços diferenciados a seus clientes, advinda da longa trajetória de sua liderança, com mais de 25 anos de experiência em AUDITORIA,</p>
                                    <div class="slider-btn mt-15">                                          
-                                            <a href="#" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Sobre Nós</a>					
+                                            <a href="<?php URL?>sobre-nos" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Sobre Nós</a>					
                                         </div>
                               
                       
