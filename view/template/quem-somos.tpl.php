@@ -66,7 +66,6 @@ include(VIEW.'/components/common/top.tpl.php');
                                                 <li>BPS</li>
                                              
                                            </ul>
-                                        <p>Phasellus ligula diam, rhoncus a tincidunt in, auctor non est. Nulla eleifend est non nibh egestas.</p>
                                     </div>
                                     </div>
                                     
@@ -102,7 +101,7 @@ include(VIEW.'/components/common/top.tpl.php');
                             <div class="single-team text-center mb-30 ">
                                 <div class="team-thumb">
                                   <div class="brd">
-                                        <img src="{{<?php echo ASSET ?>img/team/team_img01.png" alt="img" height="350px">
+                                        <img src="<?php echo ASSET ?>img/team/team_img01.png" alt="img" height="350px">
                                     </div>
                                 </div>
                                 <div class="team-info">

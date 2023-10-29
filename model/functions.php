@@ -40,10 +40,6 @@ function slug($string) {
     return strtolower(strtr($string, $table));
 }
 
-function mysqli() {
-    return new mysqli('177.234.153.139', 'excargascom_db', '[a4Ui-[0]Mms', 'excargascom_db');
-}
-
 function pages($page, $type = null) {
     $type = (!is_null($type)) ? "-{$type}" : '';
 
@@ -74,7 +70,12 @@ function includes($file) {
     include VIEW ."$file.tpl.php";
 }
 
-function email() {
+// function email() {
+//     include CONTROLLER .'email.php';
+//     exit(0);
+// }
+
+function email_novo(){
     include CONTROLLER .'email.php';
     exit(0);
 }
@@ -91,36 +92,3 @@ function asset($asset) {
     return ASSET . $asset;
 }
 
-function getEstados($index = false) {
-    $estados = [
-        'acre' => 'Acre',
-        'alagoas' => 'Alagoas',
-        'amapa' => 'Amapá',
-        'amazonas' => 'Amazonas',
-        'bahia' => 'Bahia',
-        'ceara' => 'Ceará',
-        'distrito-federal' => 'Distrito Federal',
-        'espirito-santo' => 'Espirito Santo',
-        'goias' => 'Goiás',
-        'maranhao' => 'Maranhão',
-        'mato-grosso-do-sul' => 'Mato Grosso do Sul',
-        'mato-grosso' => 'Mato Grosso',
-        'minas-gerais' => 'Minas Gerais',
-        'para' => 'Pará',
-        'paraiba' => 'Paraíba',
-        'parana' => 'Paraná',
-        'pernambuco' => 'Pernambuco',
-        'piaui' => 'Piauí',
-        'rio-de-janeiro' => 'Rio de Janeiro',
-        'rio-grande-do-norte' => 'Rio Grande do Norte',
-        'rio-grande-do-sul' => 'Rio Grande do Sul',
-        'rondonia' => 'Rondônia',
-        'roraima' => 'Roraima',
-        'santa-catarina' => 'Santa Catarina',
-        'sao-paulo' => 'São Paulo',
-        'sergipe' => 'Sergipe',
-        'tocantins' => 'Tocantins'
-    ];
-
-    return ($index) ? $estados[$index] : $estados;
-}

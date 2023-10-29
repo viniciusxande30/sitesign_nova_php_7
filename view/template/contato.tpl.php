@@ -100,11 +100,11 @@ include(VIEW.'/components/common/top.tpl.php');
                               
                             </div>
                                 
-						<form action="mail.php" method="post" class="contact-form mt-30">
+						<form action="<?php echo URL ?>email" method="post" class="contact-form mt-30">
 							<div class="row">
                             <div class="col-lg-12">
                                 <div class="contact-field p-relative c-name mb-15">                                    
-                                    <input type="text" id="firstn" name="firstn" placeholder="Nome" required="">
+                                    <input type="text" id="firstn" name="name" placeholder="Nome" required="">
                                 </div>                               
                             </div>
 							

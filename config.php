@@ -13,13 +13,5 @@ define('IMAGES', ROOT .'images/');
 
 define('TAG_GOOGLE_ANALYTICS', '');
 define('URL', ROOT);
-define('COMPANY_NAME', 'COMETA CARGAS');
-define('COMPANY_CNPJ', '28.135.370/0001-55');
-define('TEXT_WHATSAPP', '(11) 95809-7327');
-define('LINK_WHATSAPP', 'https://api.whatsapp.com/send?phone=55'. str_replace(['(', ')', '-', ' '], '', TEXT_WHATSAPP) .'&text=Olá *'. COMPANY_NAME .'*, estou entrando em contato através do site e gostaria de uma cotação de frete!');
-define('TEXT_PHONE', '(11) 4003-0952');
-define('LINK_PHONE', 'tel:'. str_replace(['(', ')', '-', ' '], '', TEXT_PHONE) .'');
-define('TEXT_EMAIL', 'comercial@cometacargas.com.br');
-define('LINK_EMAIL', 'mailto:'. trim(strtolower(TEXT_EMAIL)));
 
 require_once 'model/functions.php';

@@ -11,4 +11,4 @@ if ($_GET['segment1'] == 'consultoria') pages('consultoria');
 if ($_GET['segment1'] == 'contato') pages('contato');
 if ($_GET['segment1'] == 'quem-somos') pages('quem_somos');
 if ($_GET['segment1'] == 'tributario') pages('tributario');
-if ($_GET['segment1'] == 'email') email();
+if ($_GET['segment1'] == 'email') email_novo();
