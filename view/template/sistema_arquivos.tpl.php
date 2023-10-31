@@ -178,7 +178,7 @@ $records = loadData();
                     <strong><?php echo $record['name']; ?></strong>
                     <p><?php echo $record['description']; ?></p>
                     <p>File: <?php echo $record['file']; ?></p>
-                    <form action="index.php" method="post">
+                    <form action="<?= URL ?>arquivos" method="post">
                         <input type="hidden" name="id" value="<?php echo $record['id']; ?>">
                         <input type="hidden" name="action" value="delete">
                         <input type="submit" value="Delete">
