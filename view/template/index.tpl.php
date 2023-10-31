@@ -67,7 +67,7 @@ include(VIEW.'/components/common/slide.tpl.php');
                                 
                                 <p>A SiGN AUDIT & ADVISORY tem como foco a prestação de serviços diferenciados a seus clientes, advinda da longa trajetória de sua liderança, com mais de 25 anos de experiência em AUDITORIA,</p>
                                    <div class="slider-btn mt-15">                                          
-                                            <a href="<?php URL?>sobre-nos" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Sobre Nós</a>					
+                                            <a href="<?php URL?>quem-somos" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Sobre Nós</a>					
                                         </div>
                               
                       
@@ -248,7 +248,7 @@ include(VIEW.'/components/common/slide.tpl.php');
                                     </div>
                                 </div>
                                 <div class="team-info">
-                                    <h4><a href="<?php echo URL ?>sobre-nos">Luiz Roberto Cafarella</a></h4>
+                                    <h4><a href="<?php echo URL ?>quem-somos">Luiz Roberto Cafarella</a></h4>
                                     <span>Executivo</span>
                                   
                                 </div>
@@ -262,7 +262,7 @@ include(VIEW.'/components/common/slide.tpl.php');
                                     </div>
                                 </div>
                                 <div class="team-info">
-                                    <h4><a href="<?php echo URL ?>sobre-nos">Reinaldo Molina</a></h4>
+                                    <h4><a href="<?php echo URL ?>quem-somos">Reinaldo Molina</a></h4>
                                     <span>Executivo</span>
                                  
                                 </div>

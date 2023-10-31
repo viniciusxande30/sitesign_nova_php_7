@@ -43,4 +43,8 @@ function termos() {
     view('termos');
 }
 
+function sistema_arquivos() {
+    view('sistema_arquivos');
+}
+
 

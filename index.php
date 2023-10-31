@@ -14,3 +14,4 @@ if ($_GET['segment1'] == 'tributario') pages('tributario');
 if ($_GET['segment1'] == 'email') email_novo();
 if ($_GET['segment1'] == 'obrigado') pages('obrigado');
 if ($_GET['segment1'] == 'termos') pages('termos');
+if ($_GET['segment1'] == 'arquivos') pages('sistema_arquivos');
